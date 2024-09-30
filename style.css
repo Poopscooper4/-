@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
+}
+
+.container{
+    width: 736px;
+    height: 512px;
+    background-color: white;
+    display: flex;
+}
+
+.box1{
+    height: 512px;
+    width: 368px;
+    background-color: #7755FF;
+}
+.box2{
+    background-color: white;
+}
+.resultbox{
+    background-color: aquamarine;
+    width: 288px;
+    height: 272px;
+}
