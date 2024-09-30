@@ -21,15 +21,84 @@ body{
 }
 
 .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
     height: 512px;
     width: 368px;
-    background-color: #7755FF;
+    border-radius: 32px;
+    background-color: color-mix(in srgb, #7755FF 50%, #2F2CE9 50%);
+}
+
+.Rdiv{
+    margin-top: 30px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #CAC9FF;
+    font-size: 24px;
+}
+.CenterDiv{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+#Great{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.txtdiv{
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+}
+.pdiv{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #CAC9FF;
+    font-weight: 500;
 }
 .box2{
+    height: 512px;
+    width: 368px;
     background-color: white;
 }
 .resultbox{
-    background-color: aquamarine;
-    width: 288px;
-    height: 272px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
 }
+
+.hdiv{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    width: 368px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 24px;
+    line-height: 31.27px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+button{
+    border: solid 5px #303B59;
+    border-radius: 128px;
+    color: white;
+    font-size: 18px;
+    background-color: #303B59;
+    width: 288px;
+    height: 56px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 700;  
+}
+
+@media screen and (min-width: 600px)
